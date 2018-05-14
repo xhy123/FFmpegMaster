@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data></data>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        tools:context="com.czh.testmpeg.activity.GreaytyActivity">
+
+
+
+            <ImageView
+                android:id="@+id/id_main_select_video"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_menu_archive"
+                />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_main_tvvideopath"
+            android:textSize="18sp"/>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_avfilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/text_avfilter"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:id="@+id/text_cutvideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/text_cutvideo"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:id="@+id/text_pro_audio_vedio"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/pro_audio_and_vedio"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="@color/lite_blue"
+                    android:gravity="center"
+                    android:text="@string/action_settings"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/action_button_text_size" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

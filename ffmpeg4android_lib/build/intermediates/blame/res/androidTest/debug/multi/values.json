@@ -1,0 +1,224 @@
+[
+    {
+        "outputFile": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 202,
+                    "endOffset": 295
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 202,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 300,
+                    "endColumn": 114,
+                    "endOffset": 410
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 114,
+                        "endOffset": 410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 415,
+                    "endColumn": 55,
+                    "endOffset": 466
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 415,
+                        "endColumn": 55,
+                        "endOffset": 466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 471,
+                    "endColumn": 61,
+                    "endOffset": 528
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 471,
+                        "endColumn": 61,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 533,
+                    "endColumn": 53,
+                    "endOffset": 582
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 533,
+                        "endColumn": 53,
+                        "endOffset": 582
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 587,
+                    "endLine": 10,
+                    "endColumn": 88,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 587,
+                        "endLine": 10,
+                        "endColumn": 88,
+                        "endOffset": 831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endColumn": 127,
+                    "endOffset": 959
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 127,
+                        "endOffset": 959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 964,
+                    "endLine": 16,
+                    "endColumn": 8,
+                    "endOffset": 1159
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 964,
+                        "endLine": 16,
+                        "endColumn": 8,
+                        "endOffset": 1159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1164,
+                    "endLine": 21,
+                    "endColumn": 8,
+                    "endOffset": 1359
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1164,
+                        "endLine": 21,
+                        "endColumn": 8,
+                        "endOffset": 1359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1364,
+                    "endLine": 25,
+                    "endColumn": 8,
+                    "endOffset": 1507
+                },
+                "from": {
+                    "file": "D:\\download\\shipinjianji\\FFmpegMaster\\ffmpeg4android_lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1364,
+                        "endLine": 25,
+                        "endColumn": 8,
+                        "endOffset": 1507
+                    }
+                }
+            }
+        ]
+    }
+]
