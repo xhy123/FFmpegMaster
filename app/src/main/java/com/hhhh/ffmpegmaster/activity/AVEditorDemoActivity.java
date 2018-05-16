@@ -150,7 +150,8 @@ public class AVEditorDemoActivity extends AppCompatActivity {
                 //String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/in.mp4","-strict","experimental", "-vf", "crop=iw/2:ih:0:0,split[tmp],pad=2*iw[left]; [tmp]hflip[right]; [left][right] overlay=W/2", "-vb", "20M", "-r", "23.956", "/sdcard/videokit/out.mp4"};
 
                 //20.将一组图片序列渲染为视频文件，图片必须按照规律的格式有序。 此命令严格要求图片序列尺寸统一，对应输出视频的分辨率
-                //commandStr = "ffmpeg -y -r 1/5 -i /sdcard/videokit/pic00%d.jpg /sdcard/videokit/out.mp4";
+                currentOutputVideoPath = "/mnt/sdcard/videokit/xuanranjpg"+System.currentTimeMillis()+".mp4";
+                cmd = "ffmpeg -y -r 0.5 -i /sdcard/videokit/pic%03d.jpg "+currentOutputVideoPath;
 
                 //21.添加音频，png也可以，这里的图片尺寸应该为320x240
                 //ffmpeg -y -r 1 -i /sdcard/videokit/pic00%d.jpg -i /sdcard/videokit/in.mp3 -strict experimental -ar 44100 -ac 2 -ab 256k -b 2097152 -ar 22050 -vcodec mpeg4 -b 2097152 -s 320x240 /sdcard/videokit/out.mp4
