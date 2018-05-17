@@ -55,7 +55,7 @@ public class AVEditorDemoActivity extends AppCompatActivity {
 
                // execCommand(cmd);
                 //1.常规的压缩代码
-                cmd = "ffmpeg -y -i "+ currentInputVideoPath+" -strict experimental -s 320x240 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -vcodec mpeg4 -b 2097152 "+currentOutputVideoPath;
+               // cmd = "ffmpeg -y -i "+ currentInputVideoPath+" -strict experimental -s 320x240 -r 30 -aspect 4:3 -ab 48000 -ac 2 -ar 22050 -vcodec mpeg4 -b 2097152 "+currentOutputVideoPath;
                 //2.视频画面局部裁剪
                 // cmd = "ffmpeg -y -i "+currentInputVideoPath+" -strict experimental -vf crop=0:0:0:5 -s 320x240 -r 15 -aspect 3:4 -ab 12288 -vcodec mpeg4 -b 2097152 -sample_fmt s16 "+currentOutputVideoPath;
 
@@ -150,8 +150,8 @@ public class AVEditorDemoActivity extends AppCompatActivity {
                 //String[] complexCommand = {"ffmpeg","-y" ,"-i", "/sdcard/videokit/in.mp4","-strict","experimental", "-vf", "crop=iw/2:ih:0:0,split[tmp],pad=2*iw[left]; [tmp]hflip[right]; [left][right] overlay=W/2", "-vb", "20M", "-r", "23.956", "/sdcard/videokit/out.mp4"};
 
                 //20.将一组图片序列渲染为视频文件，图片必须按照规律的格式有序。 此命令严格要求图片序列尺寸统一，对应输出视频的分辨率
-                currentOutputVideoPath = "/mnt/sdcard/videokit/xuanranjpg"+System.currentTimeMillis()+".mp4";
-                cmd = "ffmpeg -y -r 0.5 -i /sdcard/videokit/pic%03d.jpg "+currentOutputVideoPath;
+                /*currentOutputVideoPath = "/mnt/sdcard/videokit/xuanranjpg"+System.currentTimeMillis()+".mp4";
+                cmd = "ffmpeg -y -r 0.5 -i /sdcard/videokit/pic%03d.jpg "+currentOutputVideoPath;*/
 
                 //21.添加音频，png也可以，这里的图片尺寸应该为320x240
                 //ffmpeg -y -r 1 -i /sdcard/videokit/pic00%d.jpg -i /sdcard/videokit/in.mp3 -strict experimental -ar 44100 -ac 2 -ab 256k -b 2097152 -ar 22050 -vcodec mpeg4 -b 2097152 -s 320x240 /sdcard/videokit/out.mp4
@@ -185,9 +185,13 @@ public class AVEditorDemoActivity extends AppCompatActivity {
 //                        "[0:v]colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131[colorchannelmixed];[colorchannelmixed]eq=1.0:0:1.3:2.4:1.0:1.0:1.0:1.0[color_effect]",
 //                        "-map", "[color_effect]","-map", "0:a", "-vcodec", "mpeg4","-b", "15496k", "-ab", "48000", "-ac", "2", "-ar", "22050","/sdcard/videokit/out.mp4"};
 //
+               //27.将视频导出图片序列，在由图片序列合成视频
+//                ffmpeg 输入一个叫 toolba.mkv 的文件，让它以每秒一帧的速度，
+//                从第 26 秒开始一直截取 7 秒长的时间，截取到的每一幅图像，都用 3 位数字自动生成从小到大的文件名
+                currentOutputVideoPath = "/mnt/sdcard/videokit/%d"+".jpg";
+                cmd = "ffmpeg -i "+currentInputVideoPath+" -r 1 -ss 00:00:01 -t 00:00:05 %03d.png";
 
-
-
+                //execCommand(cmd);
 
 
                 vk = new LoadJNI();
